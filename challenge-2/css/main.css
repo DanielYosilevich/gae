@@ -1,0 +1,27 @@
+
+span {
+    color: maroon;
+}
+
+header {
+ width: 100%;
+ text-align: center;
+ text-decoration:underline;
+ color: maroon;
+}
+
+header hr {
+  margin-top: 0;
+} 
+
+.forms-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+.form-container{
+    display:flex;
+}
+
+form input[type="submit"]{
+    cursor: pointer;
+}
